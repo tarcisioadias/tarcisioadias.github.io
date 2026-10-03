@@ -371,7 +371,7 @@ body.home-page {
 .home-card {
   position: relative;
   display: flex;
-  min-height: 55vh;
+  min-height: 45vh;
   align-items: center;
   justify-content: center;
   overflow: hidden;
