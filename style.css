@@ -336,14 +336,6 @@ body.home-page {
   line-height: 1.1;
 }
 
-.candidate-label {
-  font-size: 0.22em;
-  font-weight: 400;
-  letter-spacing: 0.05em;
-  vertical-align: middle;
-  white-space: nowrap;
-}
-
 .home-position {
   margin: 1rem 0 0;
   color: #444444;
