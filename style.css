@@ -406,28 +406,28 @@ body.home-page {
 }
 
 .home-card-about {
-  background-color: #aaa49d;
+  background-color:  #ffffff;
   background-image: url("about.png");
   background-position: center 25%;
 }
 
 .home-card-research {
-  background-color: #59625d;
+  background-color:  #ffffff;
   background-image: url("tree.jpg");
   background-position: center;
 }
 
 .home-card-teaching {
-  background-color: #827a76;
+  background-color: #ffffff;
   background-image: url("IMG_3446.JPG");
   background-position: center;
 }
 
 .home-card-cv {
-  background-color: #646b70;
+  background-color: #ffffff;
   background-image: url("cv2.png");
   background-position: center;
-  background-size: 100% 100%;
+  background-size: 70% auto;
   background-repeat: no-repeat;
 }
 
