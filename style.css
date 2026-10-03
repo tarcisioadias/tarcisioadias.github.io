@@ -371,11 +371,11 @@ body.home-page {
 .home-card {
   position: relative;
   display: flex;
-  min-height: 45vh;
+  min-height: 52vh;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background-position: center 25%;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
