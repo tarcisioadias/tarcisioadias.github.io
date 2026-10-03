@@ -427,7 +427,7 @@ body.home-page {
   background-color: #646b70;
   background-image: url("cv2.png");
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
