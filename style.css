@@ -425,6 +425,8 @@ body.home-page {
 
 .home-card-cv {
   background-color: #646b70;
+  background-image: url("cv.png");
+  background-position: center;
 }
 
 /* Homepage footer */
