@@ -427,6 +427,8 @@ body.home-page {
   background-color: #646b70;
   background-image: url("cvwhite.png");
   background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /* Homepage footer */
