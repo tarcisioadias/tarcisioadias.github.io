@@ -238,3 +238,226 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+/* Minimal homepage */
+
+body.home-page {
+  display: block;
+  margin: 0;
+  color: #292929;
+  background: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-page main {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Collapsible menu */
+
+.home-menu {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  z-index: 10;
+  text-align: right;
+}
+
+.home-menu summary {
+  cursor: pointer;
+  list-style: none;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.home-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+.home-menu summary::after {
+  content: " ☰";
+  margin-left: 0.4rem;
+  font-size: 1rem;
+}
+
+.home-menu[open] summary::after {
+  content: " ×";
+}
+
+.home-menu nav {
+  position: absolute;
+  right: 0;
+  display: grid;
+  min-width: 150px;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  padding: 1.25rem 1.5rem;
+  background: rgba(255, 255, 255, 0.97);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.home-menu nav a {
+  color: #292929;
+  text-decoration: none;
+}
+
+.home-menu nav a:hover,
+.home-menu nav a:focus {
+  color: #777777;
+  text-decoration: none;
+}
+
+/* Full-screen opening */
+
+.home-hero {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  min-height: 100svh;
+  padding: 2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.home-hero h1 {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(2.6rem, 6vw, 5.5rem);
+  font-weight: 300;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+}
+
+.candidate-label {
+  font-size: 0.22em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.home-caption {
+  margin: 1rem 0 0;
+  color: #777777;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.scroll-cue {
+  position: absolute;
+  bottom: 2rem;
+  color: #777777;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+/* Page tiles */
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.home-card {
+  position: relative;
+  display: flex;
+  min-height: 45vh;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.home-card::before {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background: rgba(0, 0, 0, 0.14);
+  transition: background 0.2s ease;
+}
+
+.home-card:hover::before,
+.home-card:focus::before {
+  background: rgba(0, 0, 0, 0.27);
+}
+
+.home-card span {
+  position: relative;
+  z-index: 1;
+  font-size: clamp(1.25rem, 2.5vw, 2rem);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.home-card-about {
+  background-color: #aaa49d;
+}
+
+.home-card-research {
+  background-color: #59625d;
+}
+
+.home-card-teaching {
+  background-color: #827a76;
+}
+
+.home-card-cv {
+  background-color: #646b70;
+}
+
+/* Homepage footer */
+
+.home-page .home-footer {
+  padding: 1.5rem;
+  color: #777777;
+  background: #ffffff;
+  border-top: 0;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.home-page .home-footer a {
+  color: inherit;
+}
+
+/* Mobile homepage */
+
+@media (max-width: 700px) {
+  .home-menu {
+    top: 1.25rem;
+    right: 1.25rem;
+  }
+
+  .candidate-label {
+    display: block;
+    margin-top: 0.75rem;
+    font-size: 0.3em;
+  }
+
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-card {
+    min-height: 38vh;
+  }
+
+  .home-hero h1 {
+    font-size: clamp(2.25rem, 12vw, 3.5rem);
+  }
+}
