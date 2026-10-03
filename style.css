@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 :root {
   --text: #20252b;
   --muted: #5e6873;
@@ -15,8 +16,8 @@ body {
   margin: 0;
   color: var(--text);
   background: var(--background);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 18px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 16px;
   line-height: 1.7;
 }
 
@@ -40,7 +41,7 @@ body {
 
 .site-name {
   color: var(--text);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
   text-decoration: none;
@@ -54,7 +55,7 @@ nav {
 
 nav a {
   color: var(--muted);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
   text-decoration: none;
 }
@@ -74,7 +75,7 @@ nav a:focus {
 .research-label {
   margin-bottom: 20px;
   color: var(--accent);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -83,7 +84,7 @@ nav a:focus {
 
 h1,
 h2 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   line-height: 1.2;
 }
 
@@ -130,7 +131,7 @@ h2 {
   background: var(--accent);
   border: 1px solid var(--accent);
   border-radius: 4px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
   text-decoration: none;
 }
@@ -200,7 +201,7 @@ footer {
 
 .research-card span {
   color: var(--accent);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
   font-weight: 700;
 }
@@ -208,7 +209,7 @@ footer {
 .card-label {
   margin: 0;
   color: var(--muted);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -223,7 +224,7 @@ footer {
 .research-entry h3 {
   margin-top: 0;
   margin-bottom: 6px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 1.15rem;
 }
 
@@ -245,7 +246,7 @@ body.home-page {
   margin: 0;
   color: #292929;
   background: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
 .home-page main {
@@ -328,7 +329,7 @@ body.home-page {
 
 .home-hero h1 {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: clamp(2.6rem, 6vw, 5.5rem);
   font-weight: 300;
   letter-spacing: 0.06em;
@@ -377,7 +378,7 @@ body.home-page {
   background-position: center;
   background-size: cover;
   color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   text-decoration: none;
 }
 
