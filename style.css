@@ -413,8 +413,8 @@ body.home-page {
 
 .home-card-research {
   background-color: #59625d;
-  background-image: url("tree.png");
-  background-position: center 50%;
+  background-image: url("tree.jpg");
+  background-position: center;
 }
 
 .home-card-teaching {
