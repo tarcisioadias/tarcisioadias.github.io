@@ -408,7 +408,7 @@ body.home-page {
 .home-card-about {
   background-color: #aaa49d;
   background-image: url("about.png");
-  background-position: center 25%;
+  background-position: center 50%;
 }
 
 .home-card-research {
