@@ -1,56 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tarcisio A. Dias | Linguistics</title>
+  <title>Tarcisio Dias | Linguistics</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="site-name" href="index.html">Tarcisio A. Dias</a>
+<body class="home-page">
+
+  <header>
+    <details class="home-menu">
+      <summary>Menu</summary>
 
       <nav aria-label="Main navigation">
-  <a href="index.html">Home</a>
-  <a href="research.html">Research</a>
-  <a href="teaching.html">Teaching</a>
-  <a href="Tarcisio_Dias_CV.pdf">CV</a>
-</nav>
-    </div>
+        <a href="about.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a
+          href="Tarcisio_Dias_CV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >CV</a>
+      </nav>
+    </details>
   </header>
 
-  <main class="container hero">
-    <p class="research-label">
-      Generative syntax · Morphology · Cross-linguistic variation
-    </p>
+  <main>
+    <section class="home-hero">
+      <h1>Tarcisio Dias</h1>
 
-    <h1>Tarcisio A. Dias</h1>
+      <p>Syntax · Morphology</p>
 
-    <p class="position">
-      PhD Candidate in Linguistics at the University of Connecticut
-    </p>
+      <a
+        class="scroll-cue"
+        href="#sections"
+        aria-label="View website sections"
+      >↓</a>
+    </section>
 
-    <p class="introduction">
-      I am a generative syntactician and morphologist. My research examines
-      subjecthood, movement, and word structure across languages and what this
-      variation reveals about grammatical theory. My dissertation,
-      <em>Edge Subjects</em>, develops a cross-linguistic account of
-      hyper-raising, drawing primarily on Brazilian Portuguese and Chichewa.
-    </p>
+    <section
+      class="home-grid"
+      id="sections"
+      aria-label="Website sections"
+    >
+      <a class="home-card home-card-about" href="about.html">
+        <span>About</span>
+      </a>
 
-    <p class="home-links">
-      <a class="button" href="research.html">Research</a>
-      <a class="button secondary" href="Tarcisio_Dias_CV.pdf">Download CV</a>
-    </p>
+      <a class="home-card home-card-research" href="research.html">
+        <span>Research</span>
+      </a>
+
+      <a class="home-card home-card-teaching" href="teaching.html">
+        <span>Teaching</span>
+      </a>
+
+      <a
+        class="home-card home-card-cv"
+        href="Tarcisio_Dias_CV.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span>CV</span>
+      </a>
+    </section>
   </main>
 
-  <footer>
-    <div class="container">
-      © 2026 Tarcisio A. Dias ·
-      <a href="mailto:tarcisio.dias@uconn.edu">tarcisio.dias@uconn.edu</a>
-    </div>
+  <footer class="home-footer">
+    © 2026 Tarcisio Dias ·
+    <a href="mailto:tarcisio.dias@uconn.edu">
+      tarcisio.dias@uconn.edu
+    </a>
   </footer>
+
 </body>
 </html>
