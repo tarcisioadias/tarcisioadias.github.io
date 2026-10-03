@@ -377,6 +377,7 @@ body.home-page {
   overflow: hidden;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   color: #ffffff;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   text-decoration: none;
@@ -406,6 +407,8 @@ body.home-page {
 
 .home-card-about {
   background-color: #aaa49d;
+  background-image: url("aboutme.png");
+  background-position: center 25%;
 }
 
 .home-card-research {
