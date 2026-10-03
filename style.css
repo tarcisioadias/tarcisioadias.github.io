@@ -408,7 +408,7 @@ body.home-page {
 .home-card-about {
   background-color: #aaa49d;
   background-image: url("about.png");
-  background-position: center 50%;
+  background-position: center%;
 }
 
 .home-card-research {
@@ -419,6 +419,8 @@ body.home-page {
 
 .home-card-teaching {
   background-color: #827a76;
+  background-image: url("IMG_3446.JPG");
+  background-position: center;
 }
 
 .home-card-cv {
