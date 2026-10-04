@@ -485,7 +485,7 @@ body.home-page {
 }
 .wrap-photo {
   float: left;
-  width: min(20%, 150px);
+  width: min(20%, 160px);
   height: auto;
   margin: 0.4rem 2rem 1.5rem 0;
 }
