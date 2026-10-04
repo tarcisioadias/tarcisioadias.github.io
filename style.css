@@ -469,3 +469,17 @@ body.home-page {
     font-size: clamp(2.25rem, 12vw, 3.5rem);
   }
 }
+.about-page-photo {
+  float: right;
+  width: min(38%, 280px);
+  height: auto;
+  margin: 0 0 1.5rem 2.5rem;
+}
+@media (max-width: 700px) {
+  .about-page-photo {
+    float: none;
+    display: block;
+    width: min(100%, 320px);
+    margin: 0 auto 2rem;
+  }
+}
