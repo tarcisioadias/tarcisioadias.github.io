@@ -495,7 +495,7 @@ body.home-page {
 
 .wrap-photo-right {
   float: right;
-  width: min(38%, 320px);
+  width: min(48%, 360px);
   margin: 0.4rem 0 1.5rem 2rem;
 }
 
