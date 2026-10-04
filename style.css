@@ -472,7 +472,7 @@ body.home-page {
 .about-page-photo {
   float: none;
   display: block;
-  width: min(100%, 760px);
+  width: min(100%, 650px);
   height: auto;
   margin: 1.5rem 0 3.5rem;
 }
