@@ -495,21 +495,8 @@ body.home-page {
 
 .wrap-photo-right {
   float: right;
+  width: min(38%, 320px);
   margin: 0.4rem 0 1.5rem 2rem;
-}
-
-.clear-float {
-  clear: both;
-}
-
-@media (max-width: 700px) {
-  .wrap-photo-left,
-  .wrap-photo-right {
-    float: none;
-    display: block;
-    width: min(100%, 280px);
-    margin: 1.5rem auto;
-  }
 }
 
 .clear-float {
@@ -520,7 +507,7 @@ body.home-page {
   .wrap-photo {
     float: none;
     display: block;
-    width: min(100%, 340px);
+    width: min(100%, 280px);
     margin: 1.5rem auto;
   }
 }
