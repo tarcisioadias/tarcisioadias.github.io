@@ -511,3 +511,128 @@ body.home-page {
     margin: 1.5rem auto;
   }
 }
+/* Research landing page */
+
+.research-page {
+  max-width: 1000px;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+/* Main Research image */
+
+.research-hero {
+  position: relative;
+  display: flex;
+  min-height: 360px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #59625d;
+  background-image: url("research-banner.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.research-hero::before {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.research-hero h1 {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+}
+
+/* Syntax and Morphology images */
+
+.research-image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.research-image-card {
+  position: relative;
+  display: flex;
+  min-height: 360px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.syntax-card {
+  background-image: url("syntax-card.jpg");
+}
+
+.morphology-card {
+  background-image: url("morphology-card.jpg");
+}
+
+.research-image-card::before {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.3s ease;
+}
+
+.research-image-card span {
+  position: relative;
+  z-index: 1;
+  opacity: 0;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transform: translateY(8px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.research-image-card:hover::before,
+.research-image-card:focus::before {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.research-image-card:hover span,
+.research-image-card:focus span {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  .research-hero {
+    min-height: 280px;
+  }
+
+  .research-image-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-image-card {
+    min-height: 320px;
+  }
+
+  .research-image-card::before {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .research-image-card span {
+    opacity: 1;
+    transform: none;
+  }
+}
