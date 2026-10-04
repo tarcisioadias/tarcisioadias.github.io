@@ -484,10 +484,32 @@ body.home-page {
   }
 }
 .wrap-photo {
-  float: left;
-  width: min(20%, 160px);
+  width: min(28%, 220px);
   height: auto;
+}
+
+.wrap-photo-left {
+  float: left;
   margin: 0.4rem 2rem 1.5rem 0;
+}
+
+.wrap-photo-right {
+  float: right;
+  margin: 0.4rem 0 1.5rem 2rem;
+}
+
+.clear-float {
+  clear: both;
+}
+
+@media (max-width: 700px) {
+  .wrap-photo-left,
+  .wrap-photo-right {
+    float: none;
+    display: block;
+    width: min(100%, 280px);
+    margin: 1.5rem auto;
+  }
 }
 
 .clear-float {
