@@ -643,3 +643,10 @@ body.home-page {
   background-position: center;
   background-size: cover;
 }
+.research-hero.morphology-hero {
+  min-height: 280px;
+  margin-bottom: 3rem;
+  background-image: url("IMG_2001.jpg");
+  background-position: center;
+  background-size: cover;
+}
