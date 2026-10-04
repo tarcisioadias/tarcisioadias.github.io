@@ -483,3 +483,22 @@ body.home-page {
     margin: 1rem 0 2.5rem;
   }
 }
+.wrap-photo {
+  float: left;
+  width: min(38%, 300px);
+  height: auto;
+  margin: 0.4rem 2rem 1.5rem 0;
+}
+
+.clear-float {
+  clear: both;
+}
+
+@media (max-width: 700px) {
+  .wrap-photo {
+    float: none;
+    display: block;
+    width: min(100%, 340px);
+    margin: 1.5rem auto;
+  }
+}
