@@ -650,3 +650,9 @@ body.home-page {
   background-position: center;
   background-size: cover;
 }
+.photo-credit {
+  margin: 0.4rem 0 0;
+  color: #999999;
+  font-size: 0.7rem;
+  letter-spacing: 0.03em;
+}
