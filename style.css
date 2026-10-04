@@ -524,7 +524,7 @@ body.home-page {
 .research-hero {
   position: relative;
   display: flex;
-  min-height: 360px;
+  min-height: 300px;
   align-items: center;
   justify-content: center;
   overflow: hidden;
@@ -563,7 +563,7 @@ body.home-page {
 .research-image-card {
   position: relative;
   display: flex;
-  min-height: 360px;
+  min-height: 300px;
   align-items: center;
   justify-content: center;
   overflow: hidden;
