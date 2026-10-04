@@ -636,9 +636,10 @@ body.home-page {
     transform: none;
   }
 }
-.syntax-hero {
+.research-hero.syntax-hero {
   min-height: 280px;
   margin-bottom: 3rem;
   background-image: url("falltrees.jpg");
   background-position: center;
+  background-size: cover;
 }
