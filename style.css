@@ -470,16 +470,16 @@ body.home-page {
   }
 }
 .about-page-photo {
-  float: right;
-  width: min(38%, 280px);
+  float: none;
+  display: block;
+  width: min(100%, 760px);
   height: auto;
-  margin: 0 0 1.5rem 2.5rem;
+  margin: 1.5rem 0 3.5rem;
 }
+
 @media (max-width: 700px) {
   .about-page-photo {
-    float: none;
-    display: block;
-    width: min(100%, 320px);
-    margin: 0 auto 2rem;
+    width: 100%;
+    margin: 1rem 0 2.5rem;
   }
 }
