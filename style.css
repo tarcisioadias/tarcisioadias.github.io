@@ -660,3 +660,12 @@ body.home-page {
   font-size: inherit;
   font-weight: 600;
 }
+.teaching-page .course-info {
+  margin: 0;
+  line-height: 1.45;
+}
+
+.teaching-page .course-description {
+  margin: 0.2rem 0 0.8rem;
+  line-height: 1.45;
+}
