@@ -656,3 +656,7 @@ body.home-page {
   font-size: 0.7rem;
   letter-spacing: 0.03em;
 }
+.teaching-page h2 {
+  font-size: inherit;
+  font-weight: 600;
+}
