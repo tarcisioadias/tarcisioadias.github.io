@@ -666,6 +666,7 @@ body.home-page {
 }
 
 .teaching-page .course-description {
+  font-size: 0.9em;
   margin: 0.2rem 0 0.8rem;
   line-height: 1.45;
 }
