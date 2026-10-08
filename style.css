@@ -670,3 +670,8 @@ body.home-page {
   margin: 0.2rem 0 0.8rem;
   line-height: 1.45;
 }
+.research-hero.teaching-hero {
+  background-image: url("whiteboard.jpg");
+  min-height: 200px;
+  margin-bottom: 1.5rem;
+}
