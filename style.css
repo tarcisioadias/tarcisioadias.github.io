@@ -666,15 +666,12 @@ body.home-page {
 }
 
 .teaching-page .course-description {
-  font-size: 0.9em;
+  font-size: 0.7em;
   margin: 0.2rem 0 0.8rem;
   line-height: 1.45;
 }
 .research-hero.teaching-hero {
   background-image: url("whiteboard.jpg");
-  min-height: 200px;
-  margin-bottom: 1.5rem;
-}
-.research-hero.teaching-hero {
-  background-image: url("IMG_3446.JPG");
+  min-height: 280px;
+  margin-bottom: 3rem;
 }
