@@ -675,3 +675,6 @@ body.home-page {
   min-height: 200px;
   margin-bottom: 1.5rem;
 }
+.research-hero.teaching-hero {
+  background-image: url("IMG_3446.JPG");
+}
