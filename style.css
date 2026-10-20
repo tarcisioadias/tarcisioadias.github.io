@@ -675,3 +675,25 @@ body.home-page {
   min-height: 280px;
   margin-bottom: 3rem;
 }
+.gloss-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1rem;
+}
+
+.gloss-word {
+  display: grid;
+  white-space: nowrap;
+}
+
+.gloss-word > span:first-child {
+  font-style: italic;
+}
+
+.gloss-word > span:last-child {
+  font-size: 0.875em;
+}
+
+.gloss-translation {
+  margin-top: 0.4rem;
+}
