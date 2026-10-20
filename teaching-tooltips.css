@@ -1,11 +1,11 @@
 /* Course descriptions: load this stylesheet on the Teaching page. */
-.teaching-page .course-tooltip {
+.course-tooltip {
   position: relative;
   display: inline-block;
   max-width: 100%;
 }
 
-.teaching-page .course-title {
+.course-title {
   max-width: 100%;
   padding: 0;
   border: 0;
@@ -18,7 +18,7 @@
   cursor: help;
 }
 
-.teaching-page .course-title:focus-visible {
+.course-title:focus-visible {
   outline: 2px solid var(--accent, #405e76);
   outline-offset: 3px;
 }
@@ -43,13 +43,13 @@
   white-space: normal;
 }
 
-.teaching-page .course-tooltip.is-open .course-popup {
+.course-tooltip.is-open .course-popup {
   display: block;
 }
 
 /* Keep long descriptions within the screen on phones. */
 @media (max-width: 600px) {
-  .teaching-page .course-popup {
+  .course-popup {
     position: fixed;
     top: auto;
     bottom: 1.25rem;
