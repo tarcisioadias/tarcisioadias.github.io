@@ -71,3 +71,15 @@
   color: var(--accent, #405e76);
   text-decoration: underline;
 }
+.course-title {
+  color: var(--accent, #405e76);
+  text-decoration: underline dotted;
+  text-underline-offset: 0.2em;
+  cursor: pointer;
+}
+
+.course-title:hover,
+.course-title:focus-visible {
+  color: var(--text, #20252b);
+  text-decoration-style: solid;
+}
