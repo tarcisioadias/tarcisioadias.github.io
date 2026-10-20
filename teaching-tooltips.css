@@ -73,7 +73,7 @@
 }
 .course-title {
   color: var(--accent, #405e76);
-  text-decoration: underline dotted;
+  text-decoration: none;
   text-underline-offset: 0.2em;
   cursor: pointer;
 }
