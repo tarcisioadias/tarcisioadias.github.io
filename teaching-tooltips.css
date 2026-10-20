@@ -60,3 +60,14 @@
     overflow-y: auto;
   }
 }
+.course-title {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.course-title:hover,
+.course-title:focus-visible {
+  color: var(--accent, #405e76);
+  text-decoration: underline;
+}
