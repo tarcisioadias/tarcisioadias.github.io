@@ -23,7 +23,7 @@
   outline-offset: 3px;
 }
 
-.teaching-page .course-popup {
+.course-popup {
   display: none;
   position: absolute;
   top: 100%;
