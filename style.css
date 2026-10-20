@@ -697,3 +697,9 @@ body.home-page {
 .gloss-translation {
   margin-top: 0.4rem;
 }
+.numbered-example {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  column-gap: 0.75rem;
+  align-items: start;
+}
