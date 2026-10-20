@@ -15,7 +15,7 @@
     course.classList.add("is-open");
   }
 
-  document.querySelectorAll(".teaching-page .course-tooltip").forEach((course, index) => {
+  document.querySelectorAll(".course-tooltip").forEach((course, index) => {
     const button = course.querySelector(".course-title");
     const description = course.querySelector(".course-popup");
     if (!button || !description) return;
